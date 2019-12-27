@@ -20,11 +20,15 @@ that is dedicated to routing and imported by the root `AppModule`.
 
 By convention, the module class name is `AppRoutingModule` and it belongs in the `app-routing.module.ts` in the `src/app` folder.
 
+Notice: Previously, it was created by default using `ng new angular-tour-of-heroes` if you chose `Want to add route?: Yes`. 
+Please check if there is already `src / app / app-routing.module.ts`. If so, skip the cli. If not then run this cli from the command line:
+
 Use the CLI to generate it.
 
 <code-example language="sh" class="code-shell">
   ng generate module app-routing --flat --module=app
 </code-example>
+
 
 <div class="alert is-helpful">
 
